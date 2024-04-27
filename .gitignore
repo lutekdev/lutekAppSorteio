@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/androidstudio,java,kotlin
-# Edit at https://www.toptal.com/developers/gitignore?templates=androidstudio,java,kotlin
+# Created by https://www.toptal.com/developers/gitignore/api/androidstudio,java,kotlin,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=androidstudio,java,kotlin,visualstudiocode
 
 ### Java ###
 # Compiled class file
@@ -39,6 +39,25 @@ replay_pid*
 # Package Files #
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
@@ -166,4 +185,4 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/androidstudio,java,kotlin
+# End of https://www.toptal.com/developers/gitignore/api/androidstudio,java,kotlin,visualstudiocode
